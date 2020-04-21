@@ -1,9 +1,8 @@
-package com.wholesalestore.wholesalestore.customers;
+package com.wholesalestore.wholesalestore.service.customer;
 
 
 
 import com.wholesalestore.wholesalestore.entities.Customer;
-import com.wholesalestore.wholesalestore.entities.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -2,7 +2,7 @@ package com.wholesalestore.wholesalestore.controller;
 
 import com.wholesalestore.wholesalestore.constants.HttpStatusCode;
 import com.wholesalestore.wholesalestore.constants.RegistrationConstant;
-import com.wholesalestore.wholesalestore.customers.CustomerService;
+import com.wholesalestore.wholesalestore.service.customer.CustomerService;
 import com.wholesalestore.wholesalestore.entities.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

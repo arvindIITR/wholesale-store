@@ -1,12 +1,9 @@
-package com.wholesalestore.wholesalestore.customers;
+package com.wholesalestore.wholesalestore.service.customer;
 
 
 
 import com.wholesalestore.wholesalestore.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-
-import java.util.List;
 
 /**
  * @Author arvindkumar
