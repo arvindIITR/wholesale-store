@@ -1,6 +1,7 @@
 package com.wholesalestore.wholesalestore.controller;
 
 import com.wholesalestore.wholesalestore.constants.HttpStatusCode;
+import com.wholesalestore.wholesalestore.constants.RegistrationConstant;
 import com.wholesalestore.wholesalestore.customers.CustomerService;
 import com.wholesalestore.wholesalestore.entities.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,8 +31,8 @@ public class CustomerController {
         if(email != null){
             Customer customerFromDb = customerService.getCustomerByEmail(email);
             if(customerFromDb != null){
-                response.put("response", "Email id already in use");
-                response.put("status", 201);
+                response.put(HttpStatusCode.RESPONSE, RegistrationConstant.EMAIL_EXIST);
+                response.put(HttpStatusCode.STATUS, 201);
                 return response;
             }
         }
@@ -40,13 +41,13 @@ public class CustomerController {
             persistedCustomer = customerService.createCustomer(customer);
         }catch (Exception e){
             e.printStackTrace();
-            response.put("response", "Internal server error");
-            response.put("status", HttpStatusCode.INTERNAL_SERVER_ERROR);
+            response.put(HttpStatusCode.RESPONSE, "Internal server error");
+            response.put(HttpStatusCode.STATUS, HttpStatusCode.INTERNAL_SERVER_ERROR);
             return response;
         }
         if(persistedCustomer != null){
-            response.put("response", "Successfully registered.");
-            response.put("status", HttpStatusCode.SUCCESS);
+            response.put(HttpStatusCode.RESPONSE, RegistrationConstant.REGISTERED);
+            response.put(HttpStatusCode.STATUS, HttpStatusCode.SUCCESS);
         }
         return response;
     }
