@@ -1,4 +1,4 @@
-package com.wholesalestore.wholesalestore.entities;
+package com.wholesalestore.entities;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
@@ -8,8 +8,9 @@ import javax.validation.constraints.Size;
 import java.util.List;
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
+
 @Entity
 @Table(name = "users")
 public class User {

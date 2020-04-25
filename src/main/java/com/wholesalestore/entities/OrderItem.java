@@ -1,12 +1,13 @@
-package com.wholesalestore.wholesalestore.entities;
+package com.wholesalestore.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
+
 @Entity
 @Table(name = "order_items")
 public class OrderItem implements Serializable {

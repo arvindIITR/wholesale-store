@@ -1,4 +1,4 @@
-package com.wholesalestore.wholesalestore.entities;
+package com.wholesalestore.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -9,8 +9,9 @@ import java.util.Set;
 
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
+
 @Entity
 @Table(name = "orders")
 public class Order implements Serializable {

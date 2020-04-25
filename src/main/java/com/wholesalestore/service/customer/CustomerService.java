@@ -1,8 +1,7 @@
-package com.wholesalestore.wholesalestore.service.customer;
+package com.wholesalestore.service.customer;
 
 
-
-import com.wholesalestore.wholesalestore.entities.Customer;
+import com.wholesalestore.entities.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -10,8 +9,9 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
+
 @Service
 @Transactional
 public class CustomerService {

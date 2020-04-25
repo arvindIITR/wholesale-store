@@ -1,8 +1,9 @@
-package com.wholesalestore.wholesalestore.entities;
+package com.wholesalestore.entities;
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
+
 public enum OrderStatus {
     NEW, IN_PROCESS, COMPLETED, FAILED
 }

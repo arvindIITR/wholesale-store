@@ -1,4 +1,4 @@
-package com.wholesalestore.wholesalestore.entities;
+package com.wholesalestore.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -6,8 +6,9 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
+
 @Entity
 @Table(name = "products")
 public class Product implements Serializable {

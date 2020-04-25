@@ -1,11 +1,12 @@
-package com.wholesalestore.wholesalestore.entities;
+package com.wholesalestore.entities;
 
 import javax.persistence.*;
 import java.util.List;
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
+
 @Entity
 @Table(name = "permissions")
 public class Permission {

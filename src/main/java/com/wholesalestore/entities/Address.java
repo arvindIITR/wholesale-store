@@ -1,11 +1,12 @@
-package com.wholesalestore.wholesalestore.entities;
+package com.wholesalestore.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
+
 @Entity
 @Table(name = "addresses")
 public class Address implements Serializable {

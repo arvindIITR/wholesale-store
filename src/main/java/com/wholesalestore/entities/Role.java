@@ -1,4 +1,4 @@
-package com.wholesalestore.wholesalestore.entities;
+package com.wholesalestore.entities;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
@@ -69,6 +69,4 @@ public class Role {
     public void setPermissions(List<Permission> permissions) {
         this.permissions = permissions;
     }
-
-
 }

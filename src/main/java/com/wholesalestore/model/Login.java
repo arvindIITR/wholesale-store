@@ -1,12 +1,12 @@
-package com.wholesalestore.wholesalestore.model;
+package com.wholesalestore.model;
 
 import lombok.Getter;
 import lombok.Setter;
 
 /**
- * @Author arvindkumar
- * created on 22/04/20
+ * @author arvindkumar
  */
+
 @Getter
 @Setter
 public class Login {

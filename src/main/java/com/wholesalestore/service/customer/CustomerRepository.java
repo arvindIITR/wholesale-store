@@ -1,12 +1,11 @@
-package com.wholesalestore.wholesalestore.service.customer;
+package com.wholesalestore.service.customer;
 
 
-
-import com.wholesalestore.wholesalestore.entities.Customer;
+import com.wholesalestore.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
 public interface CustomerRepository extends JpaRepository<Customer, Integer> {
 

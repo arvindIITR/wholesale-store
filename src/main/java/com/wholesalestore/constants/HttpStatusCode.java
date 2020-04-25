@@ -1,4 +1,4 @@
-package com.wholesalestore.wholesalestore.constants;
+package com.wholesalestore.constants;
 
 public interface HttpStatusCode {
     int SUCCESS = 200;

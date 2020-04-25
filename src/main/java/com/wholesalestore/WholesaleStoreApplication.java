@@ -1,4 +1,4 @@
-package com.wholesalestore.wholesalestore;
+package com.wholesalestore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ import org.springframework.session.jdbc.config.annotation.web.http.EnableJdbcHtt
 
 @SpringBootApplication
 @EnableConfigurationProperties
-@EntityScan(basePackages = {"com.wholesalestore.wholesalestore.entities"})
+@EntityScan(basePackages = {"com.wholesalestore.entities"})
 @EnableJdbcHttpSession
 public class WholesaleStoreApplication {
 

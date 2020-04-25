@@ -1,4 +1,4 @@
-package com.wholesalestore.wholesalestore;
+package com.wholesalestore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

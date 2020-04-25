@@ -1,4 +1,4 @@
-package com.wholesalestore.wholesalestore.entities;
+package com.wholesalestore.entities;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
@@ -7,8 +7,9 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * @Author arvindkumar
+ * @author arvindkumar
  */
+
 @Entity
 @Table(name = "customers")
 public class Customer implements Serializable {
