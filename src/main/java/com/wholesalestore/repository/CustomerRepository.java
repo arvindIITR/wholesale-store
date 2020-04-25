@@ -1,4 +1,4 @@
-package com.wholesalestore.service.customer;
+package com.wholesalestore.repository;
 
 
 import com.wholesalestore.entities.Customer;

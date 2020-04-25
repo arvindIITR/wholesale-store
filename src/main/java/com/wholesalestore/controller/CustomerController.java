@@ -4,7 +4,7 @@ import com.wholesalestore.constants.HttpStatusCode;
 import com.wholesalestore.constants.RegistrationConstant;
 import com.wholesalestore.entities.Customer;
 import com.wholesalestore.model.Login;
-import com.wholesalestore.service.customer.CustomerService;
+import com.wholesalestore.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;
